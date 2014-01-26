@@ -1,4 +1,4 @@
 HirokazuMiyaji.github.io
 ========================
 
-diary
+http://HirokazuMiyaji.github.io/
