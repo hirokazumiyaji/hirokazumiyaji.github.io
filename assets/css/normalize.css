@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("/assets/images/background.jpg") center center fixed;
+  background-size: contain;
+  font-family: "ヒラギノ角ゴ Pro W3",Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック",MS P Gothic,sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+.contents-wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.header-wrapper {
+  margin: 20px;
+  padding: 20px;
+}
+.header-wrapper > h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.contents-container > h2 {
+  font-size: 50px;
+  padding: 2px;
+  margin: 2px;
+}
+.links {
+  list-style-type: none;
+}
+.links > li {
+  padding: 10px;
+  display: inline-block;
+}
+.links > li > a {
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: LigatureSymbols;
+  src: url("/assets/fonts/LigatureSymbols-2.11.eot");
+  src: url("/assets/fonts/LigatureSymbols-2.11.eot?#iefix") format('embedded-opentype'),url(/assets/fonts/LigatureSymbols-2.11.woff) format('woff'),url(/assets/fonts/LigatureSymbols-2.11.ttf) format('truetype'),url(/assets/fonts/LigatureSymbols-2.11.svg#LigatureSymbols) format('svg');
+  src: url("/assets/fonts/LigatureSymbols-2.11.ttf") format('truetype');
+}
+.icon:before {
+  font-family: LigatureSymbols;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  font-size: 150px;
+}
+.icon.twitter:before {
+  content: '\E12f';
+}
+.icon.github:before {
+  content: '\E057';
+}
+.icon.hatena:before {
+  content: '\E05d';
+}
+.icon.google:before {
+  content: '\E05a';
+}
+.icon.facebook:before {
+  content: '\E047';
+}

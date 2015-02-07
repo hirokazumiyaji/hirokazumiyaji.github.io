@@ -1,0 +1,33 @@
+{
+  "name": "hirokazumiyaji.github.io",
+  "version": "1.0.0",
+  "description": "HirokazuMiyaji.github.io ========================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/hirokazumiyaji/hirokazumiyaji.github.io.git"
+  },
+  "author": "Hirokazu Miyaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hirokazumiyaji/hirokazumiyaji.github.io/issues"
+  },
+  "homepage": "https://github.com/hirokazumiyaji/hirokazumiyaji.github.io",
+  "dependencies": {
+    "react": "^0.12.2",
+    "webpack": "^1.5.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.9.1",
+    "gulp": "^3.8.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-pleeease": "^1.1.0",
+    "gulp-util": "^3.0.3",
+    "jsx-loader": "^0.12.2",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.5.3"
+  }
+}
